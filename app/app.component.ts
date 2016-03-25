@@ -19,10 +19,10 @@ export class AppComponent {
   public meals: Meal[];
   constructor(){
     this.meals = [
-      new Meal(0, "Eggs and Toast", "A healthy breakfast.", 280, new Date('2016-3-25T07:00:00')),
-      new Meal(1, "Apple and cheese", "Morning snack.", 90, new Date('2016-3-25T10:03:00')),
-      new Meal(2, "Pasta Prevavera", "Not enough sauce.", 300, new Date('2016-3-25T12:30:00')),
-      new Meal(3, "Filet Minion", "Best steak ever!", 480, new Date('2016-3-25T16:00:00'))
+      new Meal(0, "Eggs and Toast", "A healthy breakfast.", 280, new Date("03/25/2016")),
+      new Meal(1, "Apple and cheese", "Morning snack.", 90, new Date("03/25/2016")),
+      new Meal(2, "Pasta Prevavera", "Not enough sauce.", 300, new Date("03/25/2016")),
+      new Meal(3, "Filet Minion", "Best steak ever!", 480, new Date("03/25/2016"))
     ];
   }
   mealWasSelected(clickedMeal: Meal): void {

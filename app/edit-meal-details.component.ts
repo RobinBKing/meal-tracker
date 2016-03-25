@@ -10,7 +10,7 @@ import {Meal} from './meal.model';
     <input [(ngModel)]="meal.food" class="col-sm-4 input-lg meal-form"/>
     <input [(ngModel)]="meal.details" class="col-sm-4 input-lg meal-form"/>
     <input [(ngModel)]="meal.calories" class="col-sm-2 input-lg meal-form"/>
-    <input [(ngModel)]="meal.dateTimeStamp" class="col-sm-2 input-lg meal-form"/>
+    <input [(ngModel)]="meal.dateTimeStamp" type="date" class="col-sm-2 input-lg meal-form"/>
   </div>
 `
 })
