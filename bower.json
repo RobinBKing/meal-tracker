@@ -1,0 +1,21 @@
+{
+  "name": "meal-tracker",
+  "description": "a web application that tracks meals and calories",
+  "main": "",
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  },
+  "authors": [
+    "RobinBKing <samimspop@gmail.com>"
+  ]
+}
