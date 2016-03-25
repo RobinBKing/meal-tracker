@@ -13,8 +13,8 @@ import {LimitPipe} from './limit.pipe';
   directives: [MealComponent, EditMealDetailsComponent, NewMealComponent],
   template: `
   <select (change)="onChange($event.target.value)" class="filter">
-    <option value="all">Show All</option>
-    <option value="over" selected="selected">Over Limit</option>
+    <option value="all" selected="selected">Show All</option>
+    <option value="over">Over Limit</option>
     <option value="under">Under Limit</option>
   </select>
   <meal-display *ngFor="#currentMeal of mealList | limit:filterLimit"
@@ -31,7 +31,7 @@ export class MealListComponent {
   public mealList: Meal[];
   public onMealSelect: EventEmitter<Meal>;
   public selectedMeal: Meal;
-  public filterLimit: string = "all";
+  public filterLimit: string = "";
   constructor() {
     this.onMealSelect = new EventEmitter();
   }

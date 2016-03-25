@@ -10,11 +10,14 @@ export class LimitPipe implements PipeTransform {
     var desiredLimitState = args[0];
     if(desiredLimitState === "over") {
       return input.filter(function(meal) {
-        return meal.limit;
+        return meal.calories > 300;
+        // return meal.limit;
       });
     } else if (desiredLimitState === "under") {
       return input.filter(function(meal) {
-        return !meal.limit;
+        return meal.calories <= 300;
+
+        // return !meal.limit;
       });
     } else {
       return input;

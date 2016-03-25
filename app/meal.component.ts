@@ -9,8 +9,6 @@ import { Meal } from './meal.model';
     <label>{{ meal.food }}</label>
   </div>
   `
-    // <input *ngIf="meal.limit" type="checkbox" checked (click)="toggleLimit(false)"/>
-    // <input *ngIf="!meal.limit" type="checkbox" (click)="toggleLimit(true)"/>
 })
 export class MealComponent {
   public meal: Meal;
