@@ -1,0 +1,27 @@
+p {
+  font-size: 14px;
+
+}
+h3 {
+    margin-top: 20px;
+    font-size: 18px;
+}
+h1 {
+    font-size: 24px;
+}
+
+p, h1, h3 {
+  font-family: 'Quicksand';
+  text-shadow: .5px .5px $dark-grey;
+  line-height: 1.6em;
+}
+
+.input {
+  padding: 1em;
+}
+
+.mealInfo {
+  font-size: 20px;
+  color: #2D434C;
+  text-shadow: 1px 1px 1px black;
+}

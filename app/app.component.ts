@@ -6,8 +6,15 @@ import { Meal } from './meal.model';
   selector: 'my-app',
   directives: [MealListComponent],
   template: `
-    <div class="container">
-    <h1>My Meal Tracker</h1>
+    <div class="container-fluid">
+      <div class="hero">
+        <div class="hero-inner">
+          <div class="hero-copy">
+            <h1>Tracking Has Never Been Easier!</h1>
+          </div>
+        </div>
+      </div>
+
       <meal-list
         [mealList]="meals"
         (onMealSelect)="mealWasSelected($event)">
