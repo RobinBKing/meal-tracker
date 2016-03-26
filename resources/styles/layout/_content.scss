@@ -12,7 +12,7 @@ h1 {
 
 p, h1, h3 {
   font-family: 'Quicksand';
-  text-shadow: .5px .5px $dark-grey;
+  text-shadow: 1.5px  1.5px 1.5px #1a0f00;
   line-height: 1.6em;
 }
 
@@ -21,7 +21,17 @@ p, h1, h3 {
 }
 
 .mealInfo {
-  font-size: 20px;
-  color: #2D434C;
-  text-shadow: 1px 1px 1px black;
+  font-family: 'Kanit', sans-serif;
+  font-size: 24px;
+  color: #006600;
+  text-shadow: 1.5px  1.5px 1.5px #1a0f00;
+  line-height: 1.6em;
+}
+
+.selectLimit {
+  option {
+    font-family: 'Kanit', sans-serif;
+    font-size: 16px;
+    color: #006600;
+  }
 }

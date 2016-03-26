@@ -2,5 +2,6 @@
  * Basic typography style for copy text
  */
  body {
-  font: 'Quicksand';
+  @include font-face("Quicksand", "https://fonts.googleapis.com/css?family=Quicksand", $file-formats: normal);
+  font-family: 'Quicksand';
 }

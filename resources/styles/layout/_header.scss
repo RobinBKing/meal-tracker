@@ -1,29 +1,18 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the header of the site/application.
 // -----------------------------------------------------------------------------
-.hero {
-  background-color: #2D434C;
-  padding-top: 10px;
-  padding-bottom: 20px;
-//   border-radius: 80%;
-    h1 {
-    text-align: center;
-    color: #B7C6CB;
-    }
-}
-
 .hero {  
   $base-border-radius: 3px !default;
   $action-color: #477DCA !default;
   $large-screen: em(860) !default;
   $hero-background-top: #7F99BE; 
-  $hero-background-bottom: #20392B;
-  $hero-color: white;
+  $hero-background-bottom: #006600;
+  $hero-color: #ff9900;
   $gradient-angle: 10deg;
   $hero-image: "./../../img/mealTrackerLogo.png";
 
   @include background(url($hero-image), linear-gradient($gradient-angle, $hero-background-bottom, $hero-background-top), no-repeat $hero-background-top scroll);
-  background-color: #324766;
+  background-color: #006600;
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -47,9 +36,10 @@
       
       h1 {
         color: $hero-color;
-        font-size: 1.6em;
-        margin-bottom: 0;
-
+        text-shadow: .5px .5px .5px #1a0f00;
+        font-size: 1.6em;       // text-align: center;
+        padding-top: 12em;
+        // margin-bottom: 0;
         @include media($large-screen) {
           font-size: 1.8em;
         }
