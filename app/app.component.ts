@@ -19,6 +19,9 @@ import { Meal } from './meal.model';
         [mealList]="meals"
         (onMealSelect)="mealWasSelected($event)">
       </meal-list>
+      <div class=footer>
+        <img src="./img/foodgroups.png" alt="foodgroups">
+      </div>
     </div>
   `
 })

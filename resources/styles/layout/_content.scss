@@ -26,7 +26,17 @@ p, h1, h3 {
   color: #006600;
   text-shadow: 1.5px  1.5px 1.5px #1a0f00;
   line-height: 1.6em;
-}
+  .lineInfo{
+    display: none; 
+  }
+  &:hover {
+    background-color: #ff9900;
+    // background-color: complement(#006600);
+    .lineInfo {
+      display: inline-block;
+    }
+  }
+ }
 
 .selectLimit {
   option {
