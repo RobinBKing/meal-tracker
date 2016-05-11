@@ -1,10 +1,10 @@
 {
   "name": "meal-tracker",
-  "description": "a web application that tracks meals and calories",
+  "description": "a program for tracking meals",
   "main": "",
   "license": "ISC",
   "moduleType": [],
-  "homepage": "",
+  "homepage": "https://github.com/RobinBKing/meal-tracker",
   "ignore": [
     "**/.*",
     "node_modules",
